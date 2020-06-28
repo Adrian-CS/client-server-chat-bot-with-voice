@@ -19,7 +19,7 @@ PORT = 80
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "quit"
 #SERVER = socket.gethostbyname(socket.gethostname())
-SERVER = '192.168.1.38'
+SERVER = 'put here client local ip(use ipconfig or similar idk)'
 ADDR = (SERVER, PORT)
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(ADDR)
