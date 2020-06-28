@@ -5,7 +5,7 @@ import threading
 HEADER = 64
 #PORT = 8541
 PORT = 80
-SERVER = "192.168.1.38"
+SERVER = "put here your local ip(192....)"
 #SERVER = socket.gethostbyname(socket.gethostname())
 
 ADDR = (SERVER, PORT)
